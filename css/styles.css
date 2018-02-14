@@ -1,0 +1,220 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  color: #FFF;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #EFEFEF;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #2B2B2B;
+  height: 17vh;
+}
+
+nav {
+  display: inline-block;
+}
+
+ul {
+  display: block;
+  padding: 0;
+  margin: 80px 0;
+}
+
+li {
+  display: inline;
+  margin-left: 25px;
+  font-size: 1.5rem;
+  vertical-align: bottom;
+  line-height: 1.4;
+}
+
+li img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+h1 {
+  display: block;
+  color: #4D4D4D;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 1275px;
+
+}
+
+.body__h1-pagename {
+  margin: 40px auto;
+  max-width: 1275px;
+  font-size: 3.1rem;
+  font-weight: 400;
+  padding-left: 15px;
+}
+
+article {
+  margin-bottom: 15px;
+  width: 305px;
+  height:460px;
+  background-color: #FFF;
+}
+
+.article__header {
+  width: 100%;
+  background: none;
+  display: inline-block;
+}
+
+.article__img-goto {
+  margin: 10px;
+  width: 20%;
+}
+
+.article__p-wins {
+  display: block;
+  float: right;
+  margin: 10px 10px 0;
+  font-size: 1.5rem;
+}
+
+.article__p-winsnum {
+  float: right;
+  clear: right;
+  margin: 0 10px;
+  font-size: 4rem;
+  color: #FFF;
+}
+
+.article__h2-heroname {
+  margin: 10px 15px 0 ;
+  font-size: 2rem;
+  font-weight:400;
+  color: #2B2B2B;
+
+}
+
+.article__p-lastplayed {
+  margin: 0 0 0 15px;
+  color:#9CA0A0;
+}
+
+.article__section-stats {
+  margin: 25px auto 0;
+  width: 85%;
+  height: 60px;
+  background-color: #2B2B2B;
+
+}
+
+.article__h2-highlights {
+  margin: 0;
+  padding: 6px 0 2px 5px;
+}
+
+section p {
+  display: inline-block;
+}
+
+.article__p-stat {
+  color: #F9981F;
+  font-weight: 400;
+  margin: 4px 0 0 5px;
+}
+
+.article__p-statnumber {
+  display: inline-block;
+  margin: 2px 40px 0 18px
+}
+
+.article__p-statnumber2 {
+  display: inline-block;
+  margin: 2px 40px 0 35px
+}
+
+.article__p-time {
+  margin: 30px 15px 0;
+  color: #2B2B2B;
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: inherit;
+  
+}
+.article__p-hours {
+  margin: 5px 15px 0;
+  color: #2B2B2B;
+  font-size: 1.6rem;
+  display: inherit;
+
+}
+.article__p-rank {
+  margin: 18px 15px 0;
+  color: #2B2B2B;
+  font-size: 1.3rem;
+  font-weight: bold;
+  display: inherit;
+}
+.article__p-ranking {
+  margin: 7px 15px;
+  color: #23b6fc;
+  font-size: 3rem;
+  display: inherit;
+}
+
+.header__nav-admin {
+  margin-right: 10px;
+  display: block;
+  float: right;
+  color: #23b6fc;
+  font-size: 1.3rem;
+  height: 0px;
+}
+
+.nav__img-admin {
+  width: 40px;
+}
+
+.nav__img-dropdown {
+  margin-top: 7px;
+  width: 20px;
+  vertical-align: top;
+}
+
+.nav__p-admin {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.header__logo {
+  margin: 35px 20px;
+  width: 120px;
+  float: right;
+}
+
+@media screen and (max-width: 1275px) {
+  main {
+    max-width: 965px;
+  }
+
+@media screen and (max-width: 965px) {
+  main {
+    max-width: 640px;
+  }
+
+
+
+
+/*.main__article-genji {
+  background-image: url('images/genji.png');
+  background-size: 100%;
+  background-repeat:no-repeat;
+}*/
