@@ -54,19 +54,34 @@ main {
 
 }
 
+article {
+  margin-bottom: 15px;
+  width: 305px;
+  height:460px;
+  background-color: #FFF;
+  box-shadow: 3px 3px 5px 6px #AAA;
+}
+
+section p {
+  display: inline-block;
+}
+
+a {
+  cursor: context-menu;
+  color: #FFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #23b6fc;
+}
+
 .body__h1-pagename {
   margin: 40px auto;
   max-width: 1275px;
   font-size: 3.1rem;
   font-weight: 400;
   padding-left: 15px;
-}
-
-article {
-  margin-bottom: 15px;
-  width: 305px;
-  height:460px;
-  background-color: #FFF;
 }
 
 .article__header {
@@ -78,6 +93,7 @@ article {
 .article__img-goto {
   margin: 10px;
   width: 20%;
+  cursor: alias;
 }
 
 .article__p-wins {
@@ -121,9 +137,6 @@ article {
   padding: 6px 0 2px 5px;
 }
 
-section p {
-  display: inline-block;
-}
 
 .article__p-stat {
   color: #F9981F;
@@ -208,6 +221,20 @@ section p {
 @media screen and (max-width: 965px) {
   main {
     max-width: 640px;
+  }
+
+  @media screen and (max-width: 640px) {
+  main {
+    max-width: 640px;
+  }
+
+  ul {
+    margin: 55px 0;
+  }
+
+  li {
+    display: block;
+    margin-left: 10px;
   }
 
 
