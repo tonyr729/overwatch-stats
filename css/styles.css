@@ -262,7 +262,9 @@ a:hover {
   width: 120px;
 }
 
-
+/*====================================================
+  CARD FLIPPER
+======================================================*/
 
 /* entire container, keeps perspective */
 .flip-container {
@@ -277,6 +279,7 @@ a:hover {
   width: 305px;
   height: 460px;
   margin-top: 10px;
+  min-height: 1px;
 }
 
 /* flip speed goes here */
@@ -304,16 +307,12 @@ a:hover {
 /* back, initially hidden pane */
 .back {
   transform: rotateY(180deg);
-  overflow: scroll;
+  overflow-y: scroll; 
 }
 
-
-
-
-
-
-
-
+/*====================================================
+  Media Queries
+======================================================*/
 
 @media screen and (max-width: 1275px) {
   main {
@@ -327,9 +326,16 @@ a:hover {
   }
 }
 
-  @media screen and (max-width: 640px) {
+@media screen and (max-width: 660px) {
   main {
-    max-width: 640px;
+    max-width: 600px;
+    justify-content: space-around;
+  }
+
+  article {
+    width: 305px;
+    height: 460px;
+    margin-bottom: 30px;
   }
 
   ul {
@@ -339,6 +345,12 @@ a:hover {
   li {
     display: block;
     margin-left: 10px;
+  }
+  
+  .flip-container, .front, .back {
+    width: 305px;
+    height: 460px;
+    margin-top: 10px;
   }
 
 }
