@@ -1,10 +1,10 @@
 html {
+  color: #FFF;
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
   font-weight: 300;
-  color: #FFF;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -23,26 +23,26 @@ nav {
 
 ul {
   display: block;
-  padding: 0;
   margin: 80px 0;
+  padding: 0;
 }
 
 li {
   display: inline;
-  margin-left: 25px;
   font-size: 1.5rem;
-  vertical-align: bottom;
   line-height: 1.4;
+  margin-left: 25px;
+  vertical-align: bottom;
 }
 
 li img {
-  width: 20px;
   margin-right: 10px;
+  width: 20px;
 }
 
 h1 {
-  display: block;
   color: #4D4D4D;
+  display: block;
 }
 
 main {
@@ -51,15 +51,14 @@ main {
   justify-content: space-around;
   margin: 0 auto;
   max-width: 1275px;
-
 }
 
 article {
-  margin-bottom: 15px;
-  width: 305px;
-  height:460px;
   background-color: #FFF;
   box-shadow: 3px 3px 5px 6px #AAA;
+  height:460px;
+  margin-bottom: 15px;
+  width: 305px;
 }
 
 section p {
@@ -67,8 +66,8 @@ section p {
 }
 
 a {
-  cursor: context-menu;
   color: #FFF;
+  cursor: context-menu;
   text-decoration: none;
 }
 
@@ -77,58 +76,106 @@ a:hover {
 }
 
 .body__h1-pagename {
-  margin: 40px auto;
-  max-width: 1275px;
   font-size: 3.1rem;
   font-weight: 400;
+  margin: 40px auto;
+  max-width: 1275px;
   padding-left: 15px;
 }
 
+.main__article-genji {
+  background-image: url(../images/genji.png);
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+
+.main__article-pharah {
+  background-image: url(../images/pharah.png);
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+
+.main__article-rienhardt {
+  background-image: url(../images/rienhardt.png);
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+
+.main__article-mercy {
+  background-image: url(../images/mercy.png);
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+
+.main__article-mccree {
+  background-image: url(../images/mccree.png);
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+
+.main__article-soldier {
+  background-image: url(../images/soldier.png);
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+
+.main__article-junkrat {
+  background-image: url(../images/junkrat.png);
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+
+.main__article-ana {
+  background-image: url(../images/ana.png);
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+
 .article__header {
-  width: 100%;
   background: none;
   display: inline-block;
+  width: 100%;
 }
 
 .article__img-goto {
+  cursor: alias;
   margin: 10px;
   width: 20%;
-  cursor: alias;
 }
 
 .article__p-wins {
   display: block;
   float: right;
-  margin: 10px 10px 0;
   font-size: 1.5rem;
+  margin: 10px 10px 0;
 }
 
 .article__p-winsnum {
-  float: right;
   clear: right;
-  margin: 0 10px;
-  font-size: 4rem;
   color: #FFF;
+  float: right;
+  font-size: 4rem;
+  margin: 0 10px;
 }
 
 .article__h2-heroname {
-  margin: 10px 15px 0 ;
+  color: #2B2B2B;
   font-size: 2rem;
   font-weight:400;
-  color: #2B2B2B;
+  margin: 10px 15px 0 ;
 
 }
 
 .article__p-lastplayed {
-  margin: 0 0 0 15px;
   color:#9CA0A0;
+  margin: 0 0 0 15px;
 }
 
 .article__section-stats {
+  background-color: #2B2B2B;
+  height: 60px;
   margin: 25px auto 0;
   width: 85%;
-  height: 60px;
-  background-color: #2B2B2B;
 
 }
 
@@ -155,41 +202,41 @@ a:hover {
 }
 
 .article__p-time {
-  margin: 30px 15px 0;
   color: #2B2B2B;
+  display: inherit;
   font-size: 1.3rem;
   font-weight: bold;
-  display: inherit;
+  margin: 30px 15px 0;
   
 }
 .article__p-hours {
-  margin: 5px 15px 0;
   color: #2B2B2B;
-  font-size: 1.6rem;
   display: inherit;
+  font-size: 1.6rem;
+  margin: 5px 15px 0;
 
 }
 .article__p-rank {
-  margin: 18px 15px 0;
   color: #2B2B2B;
+  display: inherit;
   font-size: 1.3rem;
   font-weight: bold;
-  display: inherit;
+  margin: 18px 15px 0;
 }
 .article__p-ranking {
-  margin: 7px 15px;
   color: #23b6fc;
-  font-size: 3rem;
   display: inherit;
+  font-size: 3rem;
+  margin: 7px 15px;
 }
 
 .header__nav-admin {
-  margin-right: 10px;
+  color: #23b6fc;
   display: block;
   float: right;
-  color: #23b6fc;
   font-size: 1.3rem;
   height: 0px;
+  margin-right: 10px;
 }
 
 .nav__img-admin {
@@ -198,8 +245,8 @@ a:hover {
 
 .nav__img-dropdown {
   margin-top: 7px;
-  width: 20px;
   vertical-align: top;
+  width: 20px;
 }
 
 .nav__p-admin {
@@ -208,20 +255,22 @@ a:hover {
 }
 
 .header__logo {
+  float: right;
   margin: 35px 20px;
   width: 120px;
-  float: right;
 }
 
 @media screen and (max-width: 1275px) {
   main {
     max-width: 965px;
   }
+}
 
 @media screen and (max-width: 965px) {
   main {
     max-width: 640px;
   }
+}
 
   @media screen and (max-width: 640px) {
   main {
@@ -237,11 +286,5 @@ a:hover {
     margin-left: 10px;
   }
 
+}
 
-
-
-/*.main__article-genji {
-  background-image: url('images/genji.png');
-  background-size: 100%;
-  background-repeat:no-repeat;
-}*/
