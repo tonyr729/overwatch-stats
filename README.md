@@ -1,4 +1,4 @@
-tr-comp-challenge-2
+Overwatch Stats
 ===
 
 ## Overview
